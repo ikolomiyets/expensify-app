@@ -4,12 +4,6 @@ import 'normalize.css/normalize.css';
 import './styles/styles.scss';
 
 import './index.html';
+import AppRouter from './routers/AppRouter';
 
-const Template = () => (
-    <div className="container">
-        <div className="h1">React JS Starter Project</div>
-        <p>Font Awesome Icon <i className="fa fa-snowflake-o"></i></p>
-    </div>
-);
-
-ReactDOM.render(<Template/>, document.getElementById('app'));
+ReactDOM.render(<AppRouter/>, document.getElementById('app'));

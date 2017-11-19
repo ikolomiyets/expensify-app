@@ -1,9 +1,9 @@
 {
-  "name": "react-starter-project",
+  "name": "expensify-app",
   "version": "1.0.0",
-  "description": "React starter project.",
+  "description": "Espensify application.",
   "main": "src/index.js",
-  "repository": "https://github.com/iktech/react-starter-project.git",
+  "repository": "https://github.com/iktech/expensify-app.git",
   "author": "Igor Kolomiyets",
   "license": "MIT",
   "scripts": {
@@ -31,6 +31,7 @@
   "dependencies": {
     "normalize.css": "^7.0.0",
     "react": "^16.1.1",
-    "react-dom": "^16.1.1"
+    "react-dom": "^16.1.1",
+    "react-router-dom": "^4.2.2"
   }
 }
