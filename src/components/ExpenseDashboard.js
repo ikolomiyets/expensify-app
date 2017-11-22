@@ -1,9 +1,11 @@
 import React from 'react';
+import ExpenseList from './ExpenseList';
+import ExpenseListFilters from './ExpenseListFilters';
 
-const ExpenseDashboard = () => (
+const ExpenseDashboard = (props) => (
     <div className="container">
-        <div className="h1">React JS Starter Project</div>
-        <p>Font Awesome Icon <i className="fa fa-snowflake-o"></i></p>
+        <ExpenseListFilters/>
+        <ExpenseList history={props.history}/>
     </div>
 );
 
