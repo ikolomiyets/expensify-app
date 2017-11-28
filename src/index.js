@@ -12,6 +12,8 @@ import configureStore from './store/configureStore';
 
 import './index.html';
 import AppRouter from './routers/AppRouter';
+import 'react-dates/initialize';
+import 'react-dates/lib/css/_datepicker.css';
 
 const store = configureStore();
 console.log(store.getState());

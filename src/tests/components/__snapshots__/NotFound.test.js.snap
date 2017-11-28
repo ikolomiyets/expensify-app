@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`expect not found to be rendered 1`] = `
+<div
+  className="container"
+>
+  404! - 
+  <Link
+    replace={false}
+    to="/"
+  >
+    Go Back
+  </Link>
+</div>
+`;

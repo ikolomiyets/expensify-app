@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render expense item 1`] = `
+<p>
+  <Link
+    replace={false}
+    to="/edit/1"
+  >
+    Gum
+  </Link>
+   - 
+  195
+   - 
+  0
+  <button
+    onClick={[Function]}
+  >
+    Remove
+  </button>
+</p>
+`;
